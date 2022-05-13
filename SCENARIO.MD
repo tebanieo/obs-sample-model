@@ -138,26 +138,27 @@ You always need to start with questioning your data modelling, what are the acce
 Use the table below to enter the Queries you can predict from that business requirement:
 
 
-ID	Query	PK	SK	Filter
-BR1-1	Get all accounts summary by customer_id			
-BR1-2	Get individual account summary by customer_id and account_id 			
-BR1-3	Update account summary by customer_id and account_id			
-BR2-1	Get customer information by customer_id			
-BR2-2	Update customer information by customer_id			
-BR2-3	Delete customer information by customer_id			
-BR3-1	Get last 30 operations by account_id sorted desc			
-BR3-2	Create operation by account_id			
-BR3-3	Update operation by account_id and operation_id			
-BR4-1	Get all transactions by customer_id where transaction date is in between date range sorted desc			
-BR4-2	Get all transactions by account_id where transaction date is between date range sorted desc			
-BR5-1	Get transaction operations by transaction_id			
-BR6-1	Get all scheduled payments for the last 24 hours.			
-BR6-2	Set scheduled payment by account_id and date			
-BR6-3	Delete scheduled payment by account_id and date			
-BR6-4	Update scheduled payment by account_id and date			
+| ID    |Query	|PK 	|SK 	|Filter|
+|-------|-------|-------|-------|------|
+| BR1-1|	Get all accounts summary by customer_id			||||
+| BR1-2|	Get individual account summary by customer_id and account_id 			||||
+| BR1-3|	Update account summary by customer_id and account_id			||||
+| BR2-1|	Get customer information by customer_id			||||
+| BR2-2|	Update customer information by customer_id			||||
+| BR2-3|	Delete customer information by customer_id			||||
+| BR3-1|	Get last 30 operations by account_id sorted desc			||||
+| BR3-2|	Create operation by account_id			||||
+| BR3-3|	Update operation by account_id and operation_id			||||
+| BR4-1|	Get all transactions by customer_id where transaction date is in between date range sorted desc			||||
+| BR4-2|	Get all transactions by account_id where transaction date is between date range sorted desc			||||
+| BR5-1|	Get transaction operations by transaction_id			||||
+| BR6-1|	Get all scheduled payments for the last 24 hours.			||||
+| BR6-2|	Set scheduled payment by account_id and date			||||
+| BR6-3|	Delete scheduled payment by account_id and date			||||
+| BR6-4|	Update scheduled payment by account_id and date			||||
 				
 
-
+## Next steps
 
 * After reading all those access patterns, can you identify what could be a good candidate for the primary key?
 * How do you know which one is the best partition key? 
